@@ -1,0 +1,42 @@
+@import "header.scss";
+
+$color-1: rgb(0, 140, 255);
+$color-2: rgb(0, 255, 191); 
+
+body {
+    display: flex;
+    background: linear-gradient(to right, $color-1, $color-2);
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.con {
+    display: flex;
+    align-self: center;
+}
+
+.container {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1fr, 5);
+    grid-template-areas:
+    "hd"
+    "img"
+    "destination"
+    "departure"
+    "return";
+}
+
+.img {
+    grid-area: "img";
+}
+
+main {
+    flex: 2;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}

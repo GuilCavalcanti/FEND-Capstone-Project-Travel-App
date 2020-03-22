@@ -1,0 +1,43 @@
+.result-cont {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+
+.results {
+    margin-left: 50px;
+}
+
+#weather-sum {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#weather-temp {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#countDown {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#duration {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#error {
+    margin-top: 35px;
+    visibility: hidden;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.result-headers {
+    visibility: hidden;
+    font-size: 35px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}   

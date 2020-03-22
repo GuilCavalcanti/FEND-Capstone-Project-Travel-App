@@ -1,0 +1,15 @@
+$text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 100px;
+    text-shadow: $text-shadow;
+    font-style: italic;
+    grid-area: "hd";
+}
+
+
+
